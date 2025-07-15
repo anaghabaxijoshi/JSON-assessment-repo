@@ -1,0 +1,45 @@
+{
+    "patient": {"id": "12345", 
+                "name": { "first": "John", "last": "Doe"}, 
+                "dateOfBirth": "1980-01-01", 
+                "gender": "male", 
+                "contact": {"email": "john.doe@example.com", "phone": "222-2345"}, 
+                "address": {"street": "123 Main St", "city": "Anytown", "state": "CA", "zip": "12345"} 
+                },
+
+    "insurance": {  "provider": "Health Insurance Co", 
+                    "policyNumber": "HIC1234568", 
+                    "coverageStart": "2023-01-01", 
+                    "coverageEnd": "2024-01-01", 
+                    "premium": 200.0, 
+                    "deductible": 1000.0, 
+                    "coPay": 20.0 
+                },
+
+    "emergencyContact": {   "name": {"first": "Jane", "last": "Doe"}, 
+                            "relationship": "spouse", 
+                            "phone": "222-3456", 
+                            "email": "jane.doe@example.com"
+                        },
+    "medicalHistory":   {   "allergies": ["penicillin", "nuts"],
+                            "conditions": ["hypertension"], 
+                            "medications": [{"name": "Lisinopril", "dosage": "10mg", "frequency": "daily"}, 
+                                        {"name": "Aspirin", "dosage": "81mg", "frequency": "daily"}
+                                        ]
+                        },
+    "appointments": [{  "date": "2023-10-15", 
+                        "time": "10:00", 
+                        "doctor": {"name": "Dr. Smith", "specialty": "Cardiology"},
+                        "location": {"address": {"street": "456 Health St", "city": "Anytown", "state": "CA", "zip": "12345"} 
+                                    }          
+                    }] ,
+    "notes":[   {   
+                    "date": "2023-10-01", 
+                    "content": "Patient is stable and follows up in 2 weeks."
+                }, 
+                {
+                    "date": "2023-10-10",
+                    "content": "Patient reported no new symptoms"
+                }
+            ]
+}
